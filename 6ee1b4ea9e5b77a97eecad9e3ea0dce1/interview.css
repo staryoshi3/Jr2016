@@ -1,0 +1,62 @@
+h1, h2, p {
+    color: #87CEEB;
+}
+
+body > div:first-of-type > span {
+    color: #87CEEB;
+}
+
+body > div:first-of-type {
+    margin: 0 auto;
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    background-color: #FFA500;
+    border-top: 25px solid #996300;
+    border-left: 25px solid #996300;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#box1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -29px;
+    left: -29px;
+    right: -5px;
+    bottom: -5px;
+    border: 15px solid #0000FF;
+}
+
+#box1 > span {
+    position: absolute;
+    top: -15px;
+    left: 100px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #FFA500;
+    border-radius: 25px;
+    border: 5px solid #0000FF;
+    margin-bottom: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #999999;
+}
+
+#box2 > span {
+    color: #FF0F00;
+}
+
+#box3 > span {
+    color: #0000FF;
+}
+
